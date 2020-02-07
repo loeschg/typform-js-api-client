@@ -1,7 +1,7 @@
 {
-  "name": "@typeform/api-client",
-  "version": "0.0.0-semantic-released",
-  "description": "JS SDK for Typeform API",
+  "name": "@loeschg/typeform-api-client",
+  "version": "1.6.1",
+  "description": "JS SDK for Typeform API - Forked by loeschg",
   "scripts": {
     "test:unit": "jest ./tests/unit",
     "test:unit:watch": "jest ./tests/unit --watch",
@@ -22,10 +22,7 @@
   "engines": {
     "node": ">=8"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Typeform/js-api-client.git"
-  },
+  "repository": "git://github.com/loeschg/typform-js-api-client.git",
   "keywords": [
     "sdk",
     "typeform",
